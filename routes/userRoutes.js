@@ -4,6 +4,7 @@ const express = require('express');
 const router = express.Router();
 const dbConnection = require('../database/db'); // Import database connection
 const {loginUser} = require('../controllers/UserController')
+
 router.post('/login', loginUser)
 // router.post('/login', (req, res) => {
 //     const { username, password } = req.body;
