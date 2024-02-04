@@ -19,6 +19,7 @@ router.post('/login', (req, res) => {
     });
 
     console.log("login details", username, password);
+    //jjjjjjjj
     // Perform authentication/validation
     // For now, sending a simple response
     // res.json({ message: 'Login successful', username });
